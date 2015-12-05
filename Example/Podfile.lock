@@ -1,0 +1,14 @@
+PODS:
+  - AppleReachability (4.2)
+
+DEPENDENCIES:
+  - AppleReachability (from `../`)
+
+EXTERNAL SOURCES:
+  AppleReachability:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppleReachability: 997dc4fff932b44fbe1990e6542b03b9bac0dcf2
+
+COCOAPODS: 0.39.0

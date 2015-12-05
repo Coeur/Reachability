@@ -16,8 +16,8 @@
 		284A9D3E17BACFCC00206D4F /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A9D3D17BACFCC00206D4F /* APLViewController.m */; };
 		284A9D4017BACFCC00206D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A9D3F17BACFCC00206D4F /* Images.xcassets */; };
 		284A9D6117BAD0EC00206D4F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A9D5F17BAD0EC00206D4F /* MainStoryboard.storyboard */; };
+		59CC351AF25F1E3BEDC6ED32 /* libPods-Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18658BD6D54E9C6AFC21046 /* libPods-Reachability.a */; };
 		B5C255991BE1034700736526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C255971BE1034700736526 /* LaunchScreen.storyboard */; };
-		F8A9E87F05C2786D1F303072 /* Pods_Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBC960A43EA14AA766789DA /* Pods_Reachability.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +36,10 @@
 		284A9D3F17BACFCC00206D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		284A9D6017BAD0EC00206D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		93DB7BE65B24D2C5ECED0429 /* Pods-Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reachability.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reachability/Pods-Reachability.release.xcconfig"; sourceTree = "<group>"; };
+		A18658BD6D54E9C6AFC21046 /* libPods-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB752B7D6721B23C603A4C57 /* Pods-Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reachability.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reachability/Pods-Reachability.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C255951BE100EF00736526 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		B5C255981BE1034700736526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DDBC960A43EA14AA766789DA /* Pods_Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 				284A9D2717BACFCC00206D4F /* CoreGraphics.framework in Frameworks */,
 				284A9D2917BACFCC00206D4F /* UIKit.framework in Frameworks */,
 				284A9D2517BACFCC00206D4F /* Foundation.framework in Frameworks */,
-				F8A9E87F05C2786D1F303072 /* Pods_Reachability.framework in Frameworks */,
+				59CC351AF25F1E3BEDC6ED32 /* libPods-Reachability.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 				284A9D2417BACFCC00206D4F /* Foundation.framework */,
 				284A9D2617BACFCC00206D4F /* CoreGraphics.framework */,
 				284A9D2817BACFCC00206D4F /* UIKit.framework */,
-				DDBC960A43EA14AA766789DA /* Pods_Reachability.framework */,
+				A18658BD6D54E9C6AFC21046 /* libPods-Reachability.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

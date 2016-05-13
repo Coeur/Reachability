@@ -1,5 +1,5 @@
 PODS:
-  - AppleReachability (4.2)
+  - AppleReachability (5.0)
 
 DEPENDENCIES:
   - AppleReachability (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppleReachability: 997dc4fff932b44fbe1990e6542b03b9bac0dcf2
+  AppleReachability: 517ec01d04f74575708635a292136cd68f113d76
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 33da6aefe01571090cb465832e948643b03d6078
+
+COCOAPODS: 1.0.0
